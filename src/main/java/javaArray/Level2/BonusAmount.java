@@ -7,6 +7,8 @@ Also define a double array to save the new salary and the bonus amount as well a
 Define a loop to take input from the user. If salary or year of service is an invalid number then ask the use to enter again. Note in this case you will have to decrement the index counter
 Define another loop to calculate the bonus of 10 employees based on their years of service. Save the bonus in the array, compute the new salary, and save in the array. Also, the total bonus and total old and new salary can be calculated in the loop
 Print the total bonus payout as well as the total old and new salary of all the employees
+Author :Asher Mustafa
+Date:  22/09/2026
 * */
 import java.util.*;
 public class BonusAmount
