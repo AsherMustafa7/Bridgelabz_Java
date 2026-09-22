@@ -13,12 +13,13 @@ public class Rewordprogram2
     {
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter a number: ");
-        int number = sc.nextInt();
+        String s = sc.nextLine();
         int maxDigit = 10;
         int[] digits = new int[maxDigit];
         int index = 0;
+        
+        while (index != s.length()) {
 
-        while (number != 0) {
             if (index == maxDigit) {
                 // Increase the size of the array by 10
                 maxDigit += 10;
@@ -36,10 +37,9 @@ public class Rewordprogram2
                 // will our code work as it is now?
                 // 
                 
-                digits = temp;
             }
+            int number = Character.getNumericValue(s.charAt(index));
             digits[index] = number % 10;
-            number /= 10;
             index++;
         }
 
@@ -57,6 +57,7 @@ public class Rewordprogram2
 
         System.out.println("Largest digit: " + largest);
         System.out.println("Second largest digit: " + secondLargest);
+        
 
     }
 }
