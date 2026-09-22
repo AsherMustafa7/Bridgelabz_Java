@@ -61,5 +61,3 @@ public class Rewordprogram2
 
     }
 }
-
-// Now we add a new commet just to check the revert function of git hub i really want to check it
