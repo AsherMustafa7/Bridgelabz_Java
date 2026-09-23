@@ -12,6 +12,16 @@ Java assignments and practice problems completed as part of the BridgeLabz train
 
 ## Daily Task Update
 
+### Day 03 - 23 Sep 2026
+
+**What I have done**
+
+- Completed on Java Arrays and pushed to GitHub
+
+**What I will do**
+
+- Will move on to Assignment problems from Java Methords
+
 ### Day 03 - 22 Sep 2026
 
 **What I have done**
