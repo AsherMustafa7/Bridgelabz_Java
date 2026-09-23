@@ -17,12 +17,13 @@ import java.util.Scanner;
 
 public class ReverseNumberUsingArray {
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
         int number = sc.nextInt();
 
-        // Store the absolute value so that negative numbers can also be handled.
+        // Store the absolute value to handle the digits.
         int temp = Math.abs(number);
 
         // Find the number of digits.
@@ -39,31 +40,34 @@ public class ReverseNumberUsingArray {
 
         int[] digits = new int[digitCount];
 
-        // Extract and store each digit.
+        // Store the digits in their original order.
         temp = Math.abs(number);
-        for (int i = 0; i < digitCount; i++) {
+
+        for (int i = digitCount - 1; i >= 0; i--) {
             digits[i] = temp % 10;
             temp /= 10;
         }
 
         int[] reverse = new int[digitCount];
 
-        // Copy the digits into the reverse array.
+        // Store the digits in reverse order.
         for (int i = 0; i < digitCount; i++) {
             reverse[i] = digits[digitCount - 1 - i];
         }
 
-        // Display the reversed digits.
+        // Display the reversed number.
         System.out.print("Reverse of the number: ");
+
         if (number < 0) {
             System.out.print("-");
         }
 
-        for (int i = reverse.length - 1; i >= 0; i--) {
+        for (int i = 0; i < reverse.length; i++) {
             System.out.print(reverse[i]);
         }
 
         System.out.println();
+
         sc.close();
     }
 }
