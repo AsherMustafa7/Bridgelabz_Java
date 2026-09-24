@@ -5,6 +5,8 @@ In Hint f inside the loop if the index is equal to maxDigit, increase maxDigit a
 To do this, we need to create a new temp array of size maxDigit, copy from the current digits array the digits into the temp array, and assign the current digits array to the temp array
 Now the digits array will be able to store all digits of the number in the array and then find the largest and second largest number
 
+Author: Asher Mustafa
+Date: 24-09-2026
 */
 import java.util.*;
 public class Rewordprogram2
