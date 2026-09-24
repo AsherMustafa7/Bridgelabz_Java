@@ -21,11 +21,11 @@ import java.util.Scanner;
 public class ArrayValuesAndSum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+        // Making the scanner object
         double[] numbers = new double[10];
         double total = 0.0;
         int index = 0;
-
+        // initializing the total
         while (true) {
             if (index == numbers.length) {
                 break;
