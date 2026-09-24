@@ -12,7 +12,7 @@ Java assignments and practice problems completed as part of the BridgeLabz train
 
 ## Daily Task Update
 
-### Day 04 - 23 Sep 2026
+### Day 05 - 23 Sep 2026
 
 **What I have done**
 
@@ -22,7 +22,7 @@ Java assignments and practice problems completed as part of the BridgeLabz train
 
 - Will move on to Assignment problems from Java Methords
 
-### Day 03 - 22 Sep 2026
+### Day 04 - 22 Sep 2026
 
 **What I have done**
 
