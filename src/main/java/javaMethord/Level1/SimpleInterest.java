@@ -5,7 +5,7 @@ Hint =>
 1. Simple Interest = Principal * Rate * Time / 100
 2. Take user input for principal, rate, time
 3. Write a method to calculate the simple interest given principle, rate and time as parameters
-4. Output “The Simple Interest is ___ for Principal ___, Rate of Interest ___ and Time ___”
+4. Output The Simple Interest is ___ for Principal ___, Rate of Interest ___ and Time ___
 * Author: Asher Mustafa
 * Date: 24-09-2026
 */

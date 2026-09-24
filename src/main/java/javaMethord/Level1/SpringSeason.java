@@ -1,5 +1,5 @@
 /*
-6. Write a program SpringSeason that takes two int values month and day from the command line and prints “Its a Spring Season” otherwise prints “Not a Spring Season”.
+6. Write a program SpringSeason that takes two int values month and day from the command line and prints Its a Spring Season otherwise prints Not a Spring Season.
 
 Hint => Spring Season is from March 20 to June 20. Write a Method to check for Spring season and return a boolean true or false
 * Author: Asher Mustafa
