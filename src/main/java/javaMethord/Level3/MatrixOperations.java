@@ -61,16 +61,23 @@ public class MatrixOperations {
     }
 
     // Multiply two compatible matrices.
-    public int[][] multiplyMatrices(int[][] first, int[][] second) {
-        int[][] result = new int[first.length][second[0].length];
-
-        for (int i = 0; i < first.length; i++) {
-            for (int j = 0; j < second[0].length; j++) {
-                for (int k = 0; k < second.length; k++) {
-                    result[i][j] += first[i][k] * second[k][j];
+    public int [][] multiplyMatrices(int[][] first, int second[][])
+    {
+        int result[][]= new int[first.length][second[0].length];
+        int n= first.length;
+        int m=second[0].length;
+        int t= second.length;
+        for(int i =0;i<n;i++)
+        {
+            for(int j=0;j<m;j++)
+            {
+                for(int k=0; k<t;k++)
+                {
+                    result[i][j]+=first[i][k]*second[k][j];
                 }
             }
         }
+
         return result;
     }
 
@@ -91,7 +98,7 @@ public class MatrixOperations {
         return matrix[0][0] * matrix[1][1] - matrix[0][1] * matrix[1][0];
     }
 
-    // Find the determinant of a 3 by 3 matrix.
+    // Find the determ inant of a 3 by 3 matrix.
     public int determinant3x3(int[][] matrix) {
         int first = matrix[0][0] * (matrix[1][1] * matrix[2][2] - matrix[1][2] * matrix[2][1]);
         int second = matrix[0][1] * (matrix[1][0] * matrix[2][2] - matrix[1][2] * matrix[2][0]);
