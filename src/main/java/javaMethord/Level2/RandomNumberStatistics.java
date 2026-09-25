@@ -56,9 +56,9 @@ public class RandomNumberStatistics {
         }
 
         double[] results = statistics.findAverageMinMax(numbers);
-
         // Display average, minimum, and maximum.
         System.out.println();
+        // Display average, minimum, and maximum.
         System.out.println("Average: " + results[0]);
         System.out.println("Minimum: " + results[1]);
         System.out.println("Maximum: " + results[2]);
