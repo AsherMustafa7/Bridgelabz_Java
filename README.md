@@ -12,6 +12,16 @@ Java assignments and practice problems completed as part of the BridgeLabz train
 
 ## Daily Task Update
 
+### Day 07 - 24 Sep 2026
+
+**What I have done**
+
+- Completed Level 1 of Java Strings.
+
+**What I will do**
+
+- Will complete level 2 and level 3 of Java String.
+
 ### Day 06 - 24 Sep 2026
 
 **What I have done**
