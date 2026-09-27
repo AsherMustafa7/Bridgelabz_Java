@@ -17,7 +17,13 @@ public class NullPointerExceptionDemo {
         // Create a null String reference.
         String text = null;
         // Calling length on null generates the exception.
-        System.out.println(text.length());
+        try {
+            System.out.println(text.length());
+        } catch (java.lang.RuntimeException e) {
+            System.out.println("Message : "+e.getMessage());
+            System.out.println("Simple Name : " +e.getClass().getSimpleName());
+            System.out.println("Name : "+e.getClass().getName());
+        }
     }
     public static void main(String[] args) {
         // Call the method that demonstrates the exception.

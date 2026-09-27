@@ -44,7 +44,10 @@ public class StringCharactersComparison {
         // Compare both arrays.
         System.out.println("Both arrays are same: " + compareArrays(userDefined, builtIn));
         // Display the user-defined characters.
-        System.out.print("Characters: "); for (char c : userDefined) System.out.print(c + " "); System.out.println();
+        System.out.print("Characters: ");
+        for (char c : userDefined)
+            System.out.print(c + " ");
+        System.out.println();
         // Close the Scanner.
         sc.close();
     }

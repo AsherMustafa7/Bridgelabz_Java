@@ -14,6 +14,7 @@ Date: 25 - 09 - 2026
 public class OTPGenerator {
 
     // Generate a six digit OTP.
+    // 9* 10^(n-1)+(10^n-1))
     public int generateOTP() {
         return (int) (Math.random() * 900000) + 100000;
     }

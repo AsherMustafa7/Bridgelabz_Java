@@ -11,40 +11,34 @@ Hints:
 Author: Asher Mustafa
 Date: 25 - 09 - 2026
 */
-
 import java.util.Scanner;
-public class IllegalArgumentExceptionDemo {
-    // Generate an exception using an invalid substring range.
-    public static void generateException(String text) {
-        // Set the start index greater than the end index.
-        int start = text.length(); int end = 0;
-        // Attempt the invalid substring operation.
-        System.out.println(text.substring(start, end));
-    }
-    // Handle the invalid substring operation.
-    public static void handleException(String text) {
-        try {
-            // Set an invalid range.
-            int start = text.length(); int end = 0;
-            // Attempt to create the substring.
-            System.out.println(text.substring(start, end));
-        } catch (IllegalArgumentException exception) {
-            // Handle IllegalArgumentException.
-            System.out.println("IllegalArgumentException handled.");
-        } catch (RuntimeException exception) {
-            // Handle the actual runtime exception from substring.
-            System.out.println("RuntimeException handled: " + exception.getClass().getSimpleName());
-            System.out.println("Message: " + exception.getMessage());
+public class IllegalArgumentExceptionDemo
+{
+    public static void calling()
+    {
+        String str = "Asher Mustafa";
+        int start = str.length();
+        int end = 0;
+        try
+        {
+            System.out.println("The substring : " + str.substring(start, end));
+        }
+        catch (IllegalArgumentException e)
+        {
+            System.out.println("The Exception " + e.getMessage());
+            System.out.println("Error : " + e.getClass().getName());
+            System.out.println("Error : " + e.getClass().getSimpleName());
+        }
+        catch (RuntimeException e)
+        {
+            System.out.println("The Exception " + e.getMessage());
+            System.out.println("Error : " + e.getClass().getName());
+            System.out.println("Error : " + e.getClass().getSimpleName());
         }
     }
-    public static void main(String[] args) {
-        // Create the Scanner object.
-        Scanner sc = new Scanner(System.in);
-        // Take the String input.
-        System.out.print("Enter a string: "); String text = sc.next();
-        // Call the safe handling method.
-        handleException(text);
-        // Close the Scanner.
-        sc.close();
+    public static void main(String[] args)
+    {
+        calling();
+        return;
     }
 }
