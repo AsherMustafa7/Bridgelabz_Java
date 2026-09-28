@@ -7,12 +7,7 @@ Java assignments and practice problems completed as part of the BridgeLabz train
 - `main`: README and daily task updates
 - `develop`: empty Java project skeleton
 - `feature/*`: week-wise topic branches containing the solutions
-================================================================
 
-Week	Topic	Branch	Status
-1	Core Programming	feature/coreProgramming	Completed
-2	Object Oriented Programming	feature/object-oriented-programming	In Progress
-================================================================
 
 ## Daily Task Update
 
