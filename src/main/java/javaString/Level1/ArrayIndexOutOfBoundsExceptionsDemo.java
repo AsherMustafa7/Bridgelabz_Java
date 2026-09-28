@@ -79,16 +79,16 @@ public class ArrayIndexOutOfBoundsExceptionsDemo
         }
         catch (Exception e)
         {
-            System.out.println("The Exception "+e.getMessage());
-            System.out.println("The Exception class name"+e.getClass().getName() );
-            System.out.println("The Exception simple name"+e.getClass().getSimpleName());
+            System.out.println("The Exception : "+e.getMessage());
+            System.out.println("The Exception class name : "+e.getClass().getName() );
+            System.out.println("The Exception simple name : "+e.getClass().getSimpleName());
             /*The valid index are 0 and 2
                 Enter your index
                 3
                 The Exception Invalid index: 3
                 The Exception class namejava.lang.Exception
                 The Exception simple nameException*/
-                // the above output happened cause we ourself wrote throw new Exception("Invalid index"); and throws Exceptionwe need to change it to
+                // the above output happened cause we ourself wrote throw new Exception("Invalid index"); and throws Exception we need to change it to
                 // throw new ArrayIndexOutOfBoundsException("Invalid index: " + index); and public static void TheExceptions(String str[], int index) throws ArrayIndexOutOfBoundsException
         }
         return;
@@ -125,6 +125,4 @@ public class ArrayIndexOutOfBoundsExceptionsDemo
         return;
     }
 }
-
-
 * */
