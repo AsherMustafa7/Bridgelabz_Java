@@ -1,5 +1,7 @@
 # Bridgelabz Java
 
+![Bridgelabz Java](https://drive.google.com/file/d/1-9xq77nPTAaZQFaO5ier8u7R_D-lmMlm/view?usp=sharing)
+
 Java assignments and practice problems completed as part of the BridgeLabz training program. Assignments are taken from Google Classroom (GCR).
 
 ## Repository Structure
