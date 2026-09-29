@@ -1,3 +1,5 @@
+package objectOrientedProgrammingFundamentals.level1;
+
 /*
  * Question:
  * Program to Display Employee Details
@@ -69,5 +71,44 @@ public class Employee {
     public static void main(String[] args) {
         Employee employee = new Employee("Asher", 101, 50000);
         employee.displayDetails();
+        employee.salary = 100000; // Update salary
+        employee.displayDetails();
+        employee.setSalary(200000);
+        employee.displayDetails(); // Display updated details
     }
 }
+
+// public class test 
+// {
+//     public static void main(String[] args) {
+//         Employee employee = new Employee("Asher", 101, 50000);
+//         employee.displayDetails();
+//         employee.salary = 100000; // Update salary
+//         employee.displayDetails();
+//         employee.setSalary(200000);
+//         employee.displayDetails(); // Display updated details
+//     }
+// }
+
+// Java allows only one public class per .java file, and the filename must match that public class.
+// so the above cant we done by us
+
+
+
+/*
+3. Do we need inheritance in test?
+No. Absolutely not.
+You do not need:
+
+class test extends Employee
+
+just because test wants to use an Employee.
+In fact, inheritance would be the wrong relationship here.
+Think about the relationship:
+test HAS an Employee object
+not:
+test IS an Employee
+So you create an object:
+Employee employee = new Employee("Asher", 101, 50000);
+This is called object composition / using an object, and it is the appropriate approach here.
+*/

@@ -13,7 +13,7 @@ public class Circle {
     private double radius;
 
     // Constructor initializes the radius.
-    public Circle(double radius) {
+    public Circle(double rad) {
         this.radius = radius;
     }
 

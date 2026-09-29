@@ -64,5 +64,8 @@ public class Book {
     public static void main(String[] args) {
         Book book = new Book("Java Programming", "Asher", 599);
         book.displayDetails();
+        book.author = "Asher Mustafa";
+        book.displayDetails();
     }
 }
+
