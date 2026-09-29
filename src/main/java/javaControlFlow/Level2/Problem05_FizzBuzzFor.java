@@ -1,4 +1,4 @@
-/*
+package javaControlFlow.Level2;/*
 Problem 5 - GCR Control Flow Level 2
 Write a program FizzBuzz, take a number as user input, and if it is a positive integer loop from 0 to the number and print the number, but for multiples of 3 print "Fizz" instead of the number, for multiples of 5 print "Buzz", and for multiples of both print "FizzBuzz".
 

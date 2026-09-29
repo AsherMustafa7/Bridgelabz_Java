@@ -1,4 +1,4 @@
-/*
+package javaControlFlow.Level2;/*
 Problem 7 - GCR Control Flow Level 2
 Create a program to find the BMI of a person
 

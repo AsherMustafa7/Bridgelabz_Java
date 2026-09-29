@@ -1,4 +1,4 @@
-/*
+package javaControlFlow.Level2;/*
 Problem 12 - GCR Control Flow Level 2
 Create a program to find all the multiple of a number taken as user input below 100.
 

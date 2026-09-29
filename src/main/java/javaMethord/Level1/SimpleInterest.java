@@ -1,4 +1,4 @@
-/*
+package javaMethord.Level1;/*
 1. Write a program to input the Principal, Rate, and Time values and calculate Simple Interest.
 
 Hint =>

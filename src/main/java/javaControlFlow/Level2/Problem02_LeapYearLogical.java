@@ -1,4 +1,4 @@
-/*
+package javaControlFlow.Level2;/*
 Problem 2 - GCR Control Flow Level 2
 Rewrite program 1 to determine Leap Year with single if condition using logical and && and or || operators
 

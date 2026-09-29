@@ -1,4 +1,4 @@
-/*
+package javaMethord.Level3;/*
 Question:
 9. Write a program to find the Euclidean distance between two points as well as the equation of the line using those two points. Use Math.pow and Math.sqrt.
 

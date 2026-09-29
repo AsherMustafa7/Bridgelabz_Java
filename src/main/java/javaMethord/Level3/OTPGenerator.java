@@ -1,4 +1,4 @@
-/*
+package javaMethord.Level3;/*
 Question:
 7. Write a program to generate a six-digit OTP number using Math.random. Validate the numbers are unique by generating the OTP number 10 times and ensuring all 10 OTPs are not the same.
 

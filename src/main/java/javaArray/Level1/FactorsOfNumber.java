@@ -1,4 +1,4 @@
-/*
+package javaArray.Level1;/*
 7. Create a program to find the factors of a number taken as user input, store the factors in an array, and display the factors.
 
 Hint =>

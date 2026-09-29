@@ -1,3 +1,4 @@
+package javaProgrammingElement.Level2;
 /*
 Problem 6 - GCR Level 2 Practice Programs
 Create a program to find the total income of a person by taking salary and bonus from user

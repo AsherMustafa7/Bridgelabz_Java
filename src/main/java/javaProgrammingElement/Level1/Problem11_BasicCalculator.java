@@ -1,3 +1,4 @@
+package javaProgrammingElement.Level1;
 /*
 Problem 11 - GCR Level 1 Practice Programs
 Write a program to create a basic calculator that can perform addition, subtraction, multiplication, and division. The program should ask for two numbers (floating point) and perform all the operations

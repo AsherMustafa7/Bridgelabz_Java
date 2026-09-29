@@ -1,3 +1,4 @@
+package javaProgrammingElement.Level2;
 /*
 Problem 9 - GCR Level 2 Practice Programs
 An athlete runs in a triangular park with sides provided as input by the user in meters. If the athlete wants to complete a 5 km run, then how many rounds must the athlete complete

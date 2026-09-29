@@ -1,4 +1,4 @@
-/*
+package javaMethord.Level3;/*
 Question:
 12. Create a program to take input marks of students in 3 subjects physics, chemistry, and maths. Compute the total, average, and percentage score.
 

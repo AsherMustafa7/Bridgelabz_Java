@@ -1,3 +1,4 @@
+package javaProgrammingElement.Level2;
 /*
 Problem 10 - GCR Level 2 Practice Programs
 Create a program to divide N number of chocolates among M children.

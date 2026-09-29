@@ -1,3 +1,4 @@
+package javaString.Level1;
 /*
 Question:
 4. Write a program to demonstrate NullPointerException.

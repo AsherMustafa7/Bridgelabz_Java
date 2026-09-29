@@ -1,3 +1,4 @@
+package javaProgrammingElement.Level2;
 /*
 Problem 11 - GCR Level 2 Practice Programs
 Write a program to input the Principal, Rate, and Time values and calculate Simple Interest.

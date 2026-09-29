@@ -1,3 +1,4 @@
+package javaString.Level3;
 /*
 Question:
 Find unique characters in a string using the charAt method and display the result.

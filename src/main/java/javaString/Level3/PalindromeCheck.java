@@ -1,3 +1,4 @@
+package javaString.Level3;
 /*
 Question:
 Check if a text is palindrome and display the result.

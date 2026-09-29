@@ -1,4 +1,4 @@
-/*
+package javaArray.Level2;/*
 2. An organization took up an exercise to find the Body Mass Index (BMI) of all the persons
 in the team. For this create a program to find the BMI and display the height, weight, BMI
 and status of each individual.

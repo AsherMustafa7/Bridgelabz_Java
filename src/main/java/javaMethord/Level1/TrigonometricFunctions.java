@@ -1,4 +1,4 @@
-/*
+package javaMethord.Level1;/*
 12. Write a program to calculate various trigonometric functions using Math class given an angle in degrees
 
 Hint =>

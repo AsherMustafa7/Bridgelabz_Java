@@ -1,3 +1,4 @@
+package javaString.Level2;
 /*
 Question:
 5. Write a program to find vowels and consonants in a string and display the count of vowels and consonants in the string.

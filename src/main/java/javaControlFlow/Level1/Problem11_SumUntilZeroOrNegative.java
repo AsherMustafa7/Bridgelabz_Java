@@ -1,4 +1,4 @@
-/*
+package javaControlFlow.Level1;/*
 Problem 11 - GCR Control Flow Level 1
 Rewrite the program 10 to find the sum until the user enters 0 or a negative number using while loop and break statement
 

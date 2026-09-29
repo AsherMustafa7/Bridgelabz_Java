@@ -1,4 +1,4 @@
-/*
+package javaArray.Level2;/*
 1. Create a program to take a number as input and reverse the number. To do this, store the
 digits of the number in an array and display the array in reverse order
 

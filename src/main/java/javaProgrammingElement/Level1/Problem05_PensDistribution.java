@@ -1,3 +1,4 @@
+package javaProgrammingElement.Level1;
 /*
 Problem 5 - GCR Level 1 Practice Programs
 Suppose you have to divide 14 pens among 3 students equally. Write a program to find how many pens each student will get if the pens must be divided equally. Also, find the remaining non-distributed pens.

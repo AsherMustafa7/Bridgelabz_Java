@@ -1,3 +1,5 @@
+package javaString.Level1;
+
 /*
 Question:
 9. Write a program to demonstrate ArrayIndexOutOfBoundsException using an array of names and a user-supplied index.

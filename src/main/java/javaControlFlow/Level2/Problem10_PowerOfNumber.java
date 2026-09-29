@@ -1,4 +1,4 @@
-/*
+package javaControlFlow.Level2;/*
 Problem 10 - GCR Control Flow Level 2
 Create a program to find the power of a number.
 

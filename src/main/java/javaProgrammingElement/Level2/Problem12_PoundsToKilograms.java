@@ -1,3 +1,4 @@
+package javaProgrammingElement.Level2;
 /*
 Problem 12 - GCR Level 2 Practice Programs
 Create a program to convert weight in pounds to kilograms.

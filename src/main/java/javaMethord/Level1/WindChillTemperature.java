@@ -1,4 +1,4 @@
-/*
+package javaMethord.Level1;/*
 11. Write a program calculate the wind chill temperature given the temperature and wind speed
 
 Hint =>

@@ -1,3 +1,4 @@
+package javaProgrammingElement.Level1;
 /*
 Problem 15 - GCR Level 1 Practice Programs
 Write a program to input the unit price of an item and the quantity to be bought. Then, calculate the total price.

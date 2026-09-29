@@ -1,3 +1,4 @@
+package javaString.Level2;
 /*
 Question:
 10. Create a program to take input marks of students in 3 subjects Physics, Chemistry, and Maths. Compute the percentage and then calculate the grade as shown in the reference table.

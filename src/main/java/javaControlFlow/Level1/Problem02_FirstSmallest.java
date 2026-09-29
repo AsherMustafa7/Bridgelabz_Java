@@ -1,4 +1,4 @@
-/*
+package javaControlFlow.Level1;/*
 Problem 2 - GCR Control Flow Level 1
 Write a program to check if the first is the smallest of the 3 numbers.
 

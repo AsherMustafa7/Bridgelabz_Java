@@ -1,3 +1,4 @@
+package javaString.Level2;
 /*
 Question:
 7. Write a program to trim the leading and trailing spaces from a string using the charAt method.

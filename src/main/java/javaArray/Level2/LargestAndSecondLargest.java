@@ -1,4 +1,4 @@
-/*
+package javaArray.Level2;/*
 Create a program to store the digits of the number in an array and find the largest and second largest element of the array.
 Hint => 
 Create a number variable and Take user input. 

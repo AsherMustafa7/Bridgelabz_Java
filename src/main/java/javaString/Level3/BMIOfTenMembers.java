@@ -1,3 +1,4 @@
+package javaString.Level3;
 /*
 Question:
 Find the BMI of all 10 team members and display height, weight, BMI, and status.

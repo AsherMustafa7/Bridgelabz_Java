@@ -1,4 +1,4 @@
-/*
+package javaControlFlow.Level2;/*
 Problem 9 - GCR Control Flow Level 2
 Create a program to print the greatest factor of a number beside itself using a loop.
 

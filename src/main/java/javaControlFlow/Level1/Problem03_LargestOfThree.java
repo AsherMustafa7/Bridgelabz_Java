@@ -1,4 +1,4 @@
-/*
+package javaControlFlow.Level1;/*
 Problem 3 - GCR Control Flow Level 1
 Write a program to check if the first, second, or third number is the largest of the three.
 

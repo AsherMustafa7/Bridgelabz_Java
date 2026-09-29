@@ -1,3 +1,4 @@
+package javaProgrammingElement.Level2;
 /*
 Problem 3 - GCR Level 2 Practice Programs
 Similarly, write the DoubleOpt program by taking double values and doing the same operations.

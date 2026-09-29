@@ -1,4 +1,4 @@
-/*
+package javaArray.Level1;/*
 2. Create a program to print a multiplication table of a number.
 
 Hint =>

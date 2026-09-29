@@ -1,3 +1,4 @@
+package javaControlFlow.Level1;
 /*
 Problem 1 - GCR Control Flow Level 1
 Write a program to check if a number is divisible by 5

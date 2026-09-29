@@ -1,3 +1,4 @@
+package javaControlFlow.Level2;
 /*
 Problem 1 - GCR Control Flow Level 2
 Write a LeapYear program that takes a year as input and outputs the Year is a Leap Year or not a Leap Year.

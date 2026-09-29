@@ -1,4 +1,4 @@
-/*
+package javaMethord.Level3;/*
 Question:
 4. Extend or Create a NumberChecker utility class and perform the following tasks. Call the different methods from main and display the results. Make sure all methods are static.
 

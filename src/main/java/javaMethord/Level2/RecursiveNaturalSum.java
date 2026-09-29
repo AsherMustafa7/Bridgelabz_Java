@@ -1,4 +1,4 @@
-/*
+package javaMethord.Level2;/*
  * Question:
  * Write a program to find the sum of n natural numbers using a recursive
  * method and compare the result with the formula n multiplied by n plus 1

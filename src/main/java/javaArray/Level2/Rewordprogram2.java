@@ -1,4 +1,4 @@
-/*
+package javaArray.Level2;/*
 Rework the program 2, especially the Hint f where if index equals maxDigit, we break from the loop. Here we want to modify to Increase the size of the array i,e maxDigit by 10 if the index is equal to maxDigit. This is done to consider all digits to find the largest and second-largest number 
 Hint => 
 In Hint f inside the loop if the index is equal to maxDigit, increase maxDigit and make digits array to store more elements. 

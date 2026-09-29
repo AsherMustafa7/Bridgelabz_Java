@@ -1,4 +1,4 @@
-/*
+package javaControlFlow.Level1;/*
 Problem 15 - GCR Control Flow Level 1
 Rewrite program 14 using for loop
 

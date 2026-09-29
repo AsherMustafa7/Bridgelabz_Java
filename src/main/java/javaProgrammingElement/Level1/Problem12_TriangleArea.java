@@ -1,3 +1,4 @@
+package javaProgrammingElement.Level1;
 /*
 Problem 12 - GCR Level 1 Practice Programs
 Write a program that takes the base and height to find area of a triangle in square inches and square centimeters 

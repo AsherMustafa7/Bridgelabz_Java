@@ -1,4 +1,4 @@
-/*
+package javaControlFlow.Level2;/*
 Problem 3 - GCR Control Flow Level 2
 Write a program to input marks and 3 subjects physics, chemistry and maths. Compute the percentage and then calculate the grade as per the following guidelines
 

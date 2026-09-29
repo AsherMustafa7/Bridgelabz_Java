@@ -1,3 +1,4 @@
+package javaProgrammingElement.Level2;
 /*
 Problem 7 - GCR Level 2 Practice Programs
 Create a program to swap two numbers

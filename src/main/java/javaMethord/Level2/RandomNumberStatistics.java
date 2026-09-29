@@ -1,4 +1,4 @@
-/*
+package javaMethord.Level2;/*
  * Question:
  * Write a program that generates five 4 digit random values and then finds
  * their average value, minimum value, and maximum value.

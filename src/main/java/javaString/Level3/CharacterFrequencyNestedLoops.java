@@ -1,3 +1,4 @@
+package javaString.Level3;
 /*
 Question:
 Find the frequency of characters in a string using nested loops and display the result.

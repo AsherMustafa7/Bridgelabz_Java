@@ -1,4 +1,4 @@
-/*
+package javaControlFlow.Level1;/*
 Problem 10 - GCR Control Flow Level 1
 Write a program to find the sum of numbers until the user enters 0
 

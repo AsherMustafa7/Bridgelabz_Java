@@ -1,4 +1,4 @@
-/*
+package javaControlFlow.Level2;/*
 Problem 6 - GCR Control Flow Level 2
 Rewrite the program 5 FizzBuzz using while loop
 

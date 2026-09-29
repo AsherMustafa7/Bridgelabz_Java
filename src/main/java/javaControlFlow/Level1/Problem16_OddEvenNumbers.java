@@ -1,4 +1,4 @@
-/*
+package javaControlFlow.Level1;/*
 Problem 16 - GCR Control Flow Level 1
 Create a program to print odd and even numbers between 1 to the number entered by the user.
 

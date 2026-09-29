@@ -1,4 +1,4 @@
-/*
+package javaControlFlow.Level3;/*
 Problem 6 - GCR Control Flow Level 3
 Write a program to create a calculator using switch...case.
 

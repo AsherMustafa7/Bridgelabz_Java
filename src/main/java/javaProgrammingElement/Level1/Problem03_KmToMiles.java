@@ -1,3 +1,4 @@
+package javaProgrammingElement.Level1;
 /*
 Problem 3 - GCR Level 1 Practice Programs
 Create a program to convert the distance of 10.8 kilometers to miles.

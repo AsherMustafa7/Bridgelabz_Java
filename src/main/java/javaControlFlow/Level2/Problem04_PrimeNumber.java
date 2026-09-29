@@ -1,4 +1,4 @@
-/*
+package javaControlFlow.Level2;/*
 Problem 4 - GCR Control Flow Level 2
 Write a Program to check if the given number is a prime number or not
 

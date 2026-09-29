@@ -1,3 +1,4 @@
+package javaProgrammingElement.Level1;
 /*
 Problem 10 - GCR Level 1 Practice Programs
 Write a program that takes your height in centimeters and converts it into feet and inches

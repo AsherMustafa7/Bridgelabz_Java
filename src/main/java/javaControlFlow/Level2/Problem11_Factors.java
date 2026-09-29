@@ -1,4 +1,4 @@
-/*
+package javaControlFlow.Level2;/*
 Problem 11 - GCR Control Flow Level 2
 Create a program to find the factors of a number taken as user input.
 

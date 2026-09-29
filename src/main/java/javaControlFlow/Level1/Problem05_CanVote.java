@@ -1,4 +1,4 @@
-/*
+package javaControlFlow.Level1;/*
 Problem 5 - GCR Control Flow Level 1
 Write a program to check whether a person can vote, depending on whether his/her age is greater than or equal to 18.
 

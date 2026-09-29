@@ -1,3 +1,4 @@
+package javaProgrammingElement.Level1;
 /*
 Problem 13 - GCR Level 1 Practice Programs
 Write a program to find the side of the square whose parameter you read from user 

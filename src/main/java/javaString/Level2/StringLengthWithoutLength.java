@@ -1,3 +1,4 @@
+package javaString.Level2;
 /*
 Question:
 1. Write a program to find and return the length of a string without using the length method.

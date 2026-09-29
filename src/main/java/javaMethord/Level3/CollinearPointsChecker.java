@@ -1,3 +1,4 @@
+package javaMethord.Level3;
 /*
 Question:
 10. Write a program to find whether three points are collinear using the slope formula and area of triangle formula. Check A 2,4, B 4,6, and C 6,8 as the sample.

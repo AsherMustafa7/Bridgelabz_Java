@@ -1,4 +1,4 @@
-/*
+package javaControlFlow.Level1;/*
 Problem 12 - GCR Control Flow Level 1
 Write a program to find the sum of n natural numbers using while loop compare the result with the formulae n*(n+1)/2 and show the result from both computations was correct.
 

@@ -1,4 +1,4 @@
-/*
+package javaControlFlow.Level1;/*
 Problem 4 - GCR Control Flow Level 1
 Write a program to check for the natural number and write the sum of n natural numbers
 

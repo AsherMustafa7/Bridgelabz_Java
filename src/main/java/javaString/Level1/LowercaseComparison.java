@@ -1,3 +1,4 @@
+package javaString.Level1;
 /*
 Question:
 11. Write a program to convert the complete text to lowercase and compare the results.

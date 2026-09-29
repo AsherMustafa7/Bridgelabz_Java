@@ -1,3 +1,4 @@
+package javaControlFlow.Level3;
 /*
 Problem 1 - GCR Control Flow Level 3
 Create a program to check if a number is Armstrong or not. Use the hints to show the steps clearly in the code

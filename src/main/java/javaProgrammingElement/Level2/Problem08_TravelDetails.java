@@ -1,3 +1,4 @@
+package javaProgrammingElement.Level2;
 /*
 Problem 8 - GCR Level 2 Practice Programs
 Rewrite the Sample Program 2 with user inputs

@@ -1,3 +1,4 @@
+package javaString.Level1;
 /*
 Question:
 2. Write a program to create a substring from a String using charAt. Also use String substring to find the substring. Finally compare the two strings and display the results.

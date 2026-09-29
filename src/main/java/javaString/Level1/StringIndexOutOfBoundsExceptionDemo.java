@@ -1,3 +1,4 @@
+package javaString.Level1;
 /*
 Question:
 6. Write a program to demonstrate StringIndexOutOfBoundsException. Take a String input, access charAt beyond its length, and handle the exception.

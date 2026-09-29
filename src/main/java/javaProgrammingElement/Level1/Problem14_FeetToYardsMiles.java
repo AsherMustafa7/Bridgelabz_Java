@@ -1,3 +1,4 @@
+package javaProgrammingElement.Level1;
 /*
 Problem 14 - GCR Level 1 Practice Programs
 Write a program the find the distance in yards and miles for the distance provided by user in feets

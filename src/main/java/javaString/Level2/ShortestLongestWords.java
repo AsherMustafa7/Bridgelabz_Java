@@ -1,3 +1,4 @@
+package javaString.Level2;
 /*
 Question:
 4. Write a program to split the text into words and find the shortest and longest strings in a given text.

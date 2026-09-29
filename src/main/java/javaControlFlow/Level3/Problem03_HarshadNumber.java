@@ -1,4 +1,4 @@
-/*
+package javaControlFlow.Level3;/*
 Problem 3 - GCR Control Flow Level 3
 Create a program to check if a number taken from the user is a Harshad Number.
 

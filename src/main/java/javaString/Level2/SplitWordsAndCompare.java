@@ -1,3 +1,4 @@
+package javaString.Level2;
 /*
 Question:
 2. Write a program to split the text into words, compare the result with the split method, and display the result.

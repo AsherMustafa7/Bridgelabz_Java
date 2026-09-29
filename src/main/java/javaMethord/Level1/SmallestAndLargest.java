@@ -1,4 +1,4 @@
-/*
+package javaMethord.Level1;/*
 8. Write a program to find the smallest and the largest of the 3 numbers.
 
 Hint =>

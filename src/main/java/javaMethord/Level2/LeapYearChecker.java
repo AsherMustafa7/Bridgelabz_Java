@@ -1,4 +1,4 @@
-/*
+package javaMethord.Level2;/*
  * Question:
  * Write a program that takes a year as input and outputs whether the year
  * is a leap year or not.

@@ -1,3 +1,4 @@
+package javaString.Level2;
 /*
 Question:
 9. Rock-Paper-Scissors is a game played between a user and a computer. Based on the rules, either the player or the computer will win. Show the stats of player and computer wins in a tabular format across multiple games. Also show the winning percentage between the player and the computer.

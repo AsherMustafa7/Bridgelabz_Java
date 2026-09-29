@@ -1,3 +1,5 @@
+package javaString.Level2;
+
 /*
 Question:
 6. Write a program to find vowels and consonants in a string and display the character type as Vowel, Consonant, or Not a Letter.

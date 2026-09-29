@@ -1,4 +1,4 @@
-/*
+package javaMethord.Level1;/*
 7. Write a program to find the sum of n natural numbers using loop
 
 Hint => Get integer input from the user. Write a Method to find the sum of n natural numbers using loop

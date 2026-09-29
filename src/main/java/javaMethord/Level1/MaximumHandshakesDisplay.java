@@ -1,4 +1,4 @@
-/*
+package javaMethord.Level1;/*
 3. Create a program to find the maximum number of handshakes among N number of students.
 
 Hint =>

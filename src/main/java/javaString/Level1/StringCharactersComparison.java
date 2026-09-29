@@ -1,3 +1,4 @@
+package javaString.Level1;
 /*
 Question:
 3. Write a program to return all the characters in a string using a user-defined method, compare the result with toCharArray, and display the result.

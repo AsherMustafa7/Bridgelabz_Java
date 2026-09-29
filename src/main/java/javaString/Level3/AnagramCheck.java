@@ -1,3 +1,5 @@
+package javaString.Level3;
+
 /* 
 Question 8:
 Check if two texts are anagrams and display the result.

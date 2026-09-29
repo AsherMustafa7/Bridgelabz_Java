@@ -1,3 +1,5 @@
+package javaMethord.Level2;
+
 /*
  * Question:
  * An organization took up the exercise to find the Body Mass Index of all

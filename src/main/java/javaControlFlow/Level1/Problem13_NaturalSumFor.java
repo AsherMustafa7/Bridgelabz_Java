@@ -1,4 +1,4 @@
-/*
+package javaControlFlow.Level1;/*
 Problem 13 - GCR Control Flow Level 1
 Rewrite the program number 12 with the for loop instead of a while loop to find the sum of n Natural Numbers.
 

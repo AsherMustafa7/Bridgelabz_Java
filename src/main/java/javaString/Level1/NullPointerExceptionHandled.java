@@ -1,3 +1,4 @@
+package javaString.Level1;
 /*
 Question:
 5. Write a method to demonstrate NullPointerException. Define text as null and handle the exception using try catch.

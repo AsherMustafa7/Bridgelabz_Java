@@ -1,4 +1,4 @@
-/*
+package javaArray.Level2;/*
 5. Rewrite the above program to store the marks of the students in physics, chemistry, and maths
 in a 2D array and then compute the percentage and grade.
 

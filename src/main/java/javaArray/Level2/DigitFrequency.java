@@ -1,4 +1,4 @@
-/*
+package javaArray.Level2;/*
 6. Create a program to take a number as input, find the frequency of each digit in the number
 using an array, and display the frequency of each digit.
 

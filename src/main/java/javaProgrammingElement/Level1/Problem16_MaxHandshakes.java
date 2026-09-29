@@ -1,3 +1,4 @@
+package javaProgrammingElement.Level1;
 /*
 Problem 16 - GCR Level 1 Practice Programs
 Create a program to find the maximum number of handshakes among N number of students.

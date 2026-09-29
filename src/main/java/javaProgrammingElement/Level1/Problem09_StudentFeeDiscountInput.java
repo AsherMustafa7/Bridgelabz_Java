@@ -1,3 +1,4 @@
+package javaProgrammingElement.Level1;
 /*
 Problem 9 - GCR Level 1 Practice Programs
 Write a new program similar to the program # 6 but take user input for Student Fee and University Discount

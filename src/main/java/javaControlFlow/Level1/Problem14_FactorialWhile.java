@@ -1,4 +1,4 @@
-/*
+package javaControlFlow.Level1;/*
 Problem 14 - GCR Control Flow Level 1
 Write a Program to find the factorial of an integer entered by the user.
 

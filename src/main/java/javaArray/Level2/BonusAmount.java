@@ -1,4 +1,4 @@
-/*
+package javaArray.Level2;/*
 Create a program to find the bonus of 10 employees based on their years of service and the total bonus amount the company Zara has to pay, along with the old and new salary.
 Hint =>
 Zara decides to give a bonus of 5% to employees whose year of service is more than 5 years or 2% if less than 5 years

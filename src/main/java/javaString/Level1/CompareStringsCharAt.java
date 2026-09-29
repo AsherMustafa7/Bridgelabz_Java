@@ -1,3 +1,4 @@
+package javaString.Level1;
 /*
 Question:
 1. Write a program to compare two strings using the charAt method and check the result with the built-in String equals method.

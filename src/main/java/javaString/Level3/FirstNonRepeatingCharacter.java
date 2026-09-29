@@ -1,3 +1,4 @@
+package javaString.Level3;
 /*
 Question:
 Find the first non-repeating character in a string and show the result.

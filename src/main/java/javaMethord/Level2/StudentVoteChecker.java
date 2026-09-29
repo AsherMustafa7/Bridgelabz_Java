@@ -1,4 +1,4 @@
-/*
+package javaMethord.Level2;/*
  * Question:
  * Write a program to take user input for the age of all 10 students in
  * a class and check whether each student can vote.

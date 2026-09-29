@@ -1,4 +1,4 @@
-/*
+package javaMethord.Level2;/*
  * Question:
  * Write a program to take user input for 5 numbers and check whether each
  * number is positive or negative. For positive numbers, check whether the

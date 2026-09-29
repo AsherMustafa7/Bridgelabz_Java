@@ -1,3 +1,4 @@
+package javaProgrammingElement.Level1;
 /*
 Problem 8 - GCR Level 1 Practice Programs
 Create a program to convert distance in kilometers to miles.
