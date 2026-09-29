@@ -1,3 +1,5 @@
+package objectOrientedProgrammingFundamentals.level2;
+
 /*
  * Question:
  * Create a CartItem class with attributes itemName, price, and quantity.

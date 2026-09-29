@@ -1,3 +1,5 @@
+package objectOrientedProgrammingFundamentals.level2;
+
 /*
  * Question:
  * Create a Student class with attributes name, rollNumber, and marks.

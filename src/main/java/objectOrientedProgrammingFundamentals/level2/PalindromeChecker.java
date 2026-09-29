@@ -1,3 +1,5 @@
+package objectOrientedProgrammingFundamentals.level2;
+
 /*
  * Question:
  * Create a PalindromeChecker class with an attribute text.

@@ -1,3 +1,5 @@
+package objectOrientedProgrammingFundamentals.level2;
+
 /*
  * Question:
  * Create a MovieTicket class with attributes movieName, seatNumber,
