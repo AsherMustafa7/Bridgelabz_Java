@@ -5,6 +5,7 @@ bin/
 target/
 .idea/
 *.iml
-.vscode/
+.vscode/*
+!.vscode/settings.json
 .DS_Store
 out/
