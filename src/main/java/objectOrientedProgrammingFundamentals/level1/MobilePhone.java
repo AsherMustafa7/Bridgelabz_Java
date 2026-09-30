@@ -12,60 +12,62 @@ package objectOrientedProgrammingFundamentals.level1;
  * Date: 29 - 09 - 2026
  */
 public class MobilePhone {
-    // Store the phone brand.
     private String brand;
-    // Store the phone model.
     private String model;
-    // Store the phone price.
     private double price;
-
-    // Constructor initializes all phone attributes.
-    public MobilePhone(String brand, String model, double price) {
-        this.brand = brand;
-        this.model = model;
-        this.price = price;
+    // constructor
+    public MobilePhone(String brand, String model, double price)
+    {
+        this.brand=brand;
+        this.model=model;
+        this.price=price;
     }
 
-    // Return the phone brand.
-    public String getBrand() {
-        return brand;
-    }
-
-    // Set the phone brand.
-    public void setBrand(String brand) {
-        this.brand = brand;
-    }
-
-    // Return the phone model.
-    public String getModel() {
-        return model;
-    }
-
-    // Set the phone model.
-    public void setModel(String model) {
-        this.model = model;
-    }
-
-    // Return the phone price.
     public double getPrice() {
         return price;
     }
 
-    // Set the phone price.
-    public void setPrice(double price) {
-        this.price = price;
+    public String getBrand() {
+        return brand;
     }
 
-    // Display all phone details.
-    public void displayDetails() {
-        System.out.println("Brand: " + brand);
-        System.out.println("Model: " + model);
-        System.out.println("Price: " + price);
+    public String getModel() {
+        return model;
+    }
+    public void setPrice(double price)
+    {
+        if(price >0)
+        this.price=price;
+        else
+        {
+            System.out.println("Price cannot be negative");
+        }
+    }
+    public void setBrand(String brand)
+    {
+        this.brand=brand;
+    }
+    public void setModel(String model)
+    {
+        this.model=model;
     }
 
-    // Create a mobile phone object and display its details.
-    public static void main(String[] args) {
-        MobilePhone mobilePhone = new MobilePhone("Samsung", "Galaxy S25", 75000);
-        mobilePhone.displayDetails();
+    public void displaydetails()
+    {
+        System.out.println("Brand of the phone: "+ brand);
+        System.out.println("Model of the phone: "+ model);
+        System.out.println("Price of the phone: "+ price);
+    }
+    public static void main (String[] args)
+    {
+        MobilePhone m= new MobilePhone("Nokia","S22",100000.00);
+        System.out.println("Display using get methords: ");
+        System.out.println("Display brand get methords: "+ m.getBrand());
+        System.out.println("Display model get methords: "+ m.model);
+        System.out.println("Display price get methords: "+ m.getPrice());
+        System.out.println("changing the Price");
+        m.setPrice(20000.00);
+        System.out.println("Display using display methord");
+        m.displaydetails();
     }
 }
