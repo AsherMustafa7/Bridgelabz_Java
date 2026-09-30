@@ -15,7 +15,7 @@ public class Circle {
 
     // Constructor initializes the radius.
     public Circle(double rad) {
-        this.radius = radius;
+        this.radius = rad;
     }
 
     // Return the radius.
