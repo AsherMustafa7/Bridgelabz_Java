@@ -15,33 +15,35 @@ public class HotelBooking {
     private String guestName;
     private String roomType;
     private int nights;
-
-    public HotelBooking() {
-        this("Unknown", "Standard", 1);
+    public HotelBooking()
+    {
+        this("Unknown","Unknown",1);
     }
-
-    public HotelBooking(String guestName, String roomType, int nights) {
-        this.guestName = guestName;
-        this.roomType = roomType;
-        this.nights = nights;
+    public HotelBooking(String guestName, String roomType, int nights)
+    {
+        this.guestName=guestName;
+        this.roomType=roomType;
+        this.nights=nights;
     }
-
-    public HotelBooking(HotelBooking booking) {
-        this(booking.guestName, booking.roomType, booking.nights);
+    public HotelBooking(HotelBooking obj)
+    {
+        this.nights= obj.nights;
+        this.roomType= obj.roomType;;
+        this.guestName= obj.guestName;
     }
-
-    public void displayDetails() {
-        System.out.println("Guest Name: " + guestName);
-        System.out.println("Room Type: " + roomType);
-        System.out.println("Nights: " + nights);
+    public void display()
+    {
+        System.out.println("Nights : "+ nights);
+        System.out.println("Room type : "+ roomType);
+        System.out.println("Guest name : "+guestName);
     }
-
-    public static void main(String[] args) {
-        HotelBooking b1 = new HotelBooking();
-        HotelBooking b2 = new HotelBooking("Asher", "Deluxe", 3);
-        HotelBooking b3 = new HotelBooking(b2);
-        System.out.println("Default Constructor:"); b1.displayDetails();
-        System.out.println("\nParameterized Constructor:"); b2.displayDetails();
-        System.out.println("\nCopy Constructor:"); b3.displayDetails();
+    public static void main(String[] args)
+    {
+        HotelBooking obj1= new HotelBooking();
+        HotelBooking obj2= new HotelBooking("Asher","luxury",10);
+        HotelBooking obj3= new HotelBooking(obj2);
+        obj1.display();
+        obj2.display();
+        obj3.display();
     }
 }
