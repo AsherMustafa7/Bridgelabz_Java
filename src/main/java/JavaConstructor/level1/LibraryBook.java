@@ -16,14 +16,40 @@ public class LibraryBook {
     private String author;
     private double price;
     private boolean availability;
-
+    public LibraryBook()
+    {
+        this("", "", 0.0, false);
+    }
     public LibraryBook(String title, String author, double price, boolean availability) {
         this.title = title;
         this.author = author;
         this.price = price;
         this.availability = availability;
     }
-
+    public LibraryBook(LibraryBook other) {
+        this.title = other.title;
+        this.author = other.author;
+        this.price = other.price;
+        this.availability = other.availability;
+    }
+    public String getTitle() {
+        return title;
+    }
+    public String getAuthor() {
+        return author;
+    }
+    public double getPrice() {
+        return price;
+    }
+    public void setTitle(String title) {
+        this.title = title;
+    }
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+    public void setPrice(double price) {
+        this.price = price;
+    }
     public void borrowBook() {
         if (availability) {
             availability = false;
