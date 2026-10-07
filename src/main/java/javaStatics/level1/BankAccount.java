@@ -54,7 +54,7 @@ public class BankAccount {
         if (account2 instanceof BankAccount) {
             account2.displayDetails();
         }
-
+        
         // Display the total number of accounts.
         BankAccount.getTotalAccounts();
     }
