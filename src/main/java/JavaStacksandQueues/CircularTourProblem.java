@@ -11,31 +11,36 @@ Track the total petrol surplus and the current tour surplus to identify a valid 
  */
 package JavaStacksandQueues;
 
-import java.util.Arrays;
 
-// Find a valid starting pump for a circular tour.
 class CircularTourProblem {
-    // Each row contains petrol available and distance to the next pump.
-    static int findStart(int[][] pumps) {
-        int totalSurplus = 0;
-        int currentSurplus = 0;
+    static int findStart(int[] petrol, int[] distance) {
+        int total = 0;
+        int current = 0;
         int start = 0;
-        for (int i = 0; i < pumps.length; i++) {
-            int difference = pumps[i][0] - pumps[i][1];
-            totalSurplus += difference;
-            currentSurplus += difference;
-            if (currentSurplus < 0) {
+
+        for (int i = 0; i < petrol.length; i++) {
+            int surplus = petrol[i] - distance[i];
+
+            total += surplus;
+            current += surplus;
+
+            if (current < 0) {
                 start = i + 1;
-                currentSurplus = 0;
+                current = 0;
             }
         }
-        return totalSurplus >= 0 && start < pumps.length ? start : -1;
+
+        if (total < 0) {
+            return -1;
+        }
+
+        return start;
     }
 
-    // Demonstrate a circular tour.
     public static void main(String[] args) {
-        int[][] pumps = {{6, 4}, {3, 6}, {7, 3}};
-        System.out.println("Pumps: " + Arrays.deepToString(pumps));
-        System.out.println("Starting index: " + findStart(pumps));
+        int[] petrol = {4, 6, 7, 4};
+        int[] distance = {6, 5, 3, 5};
+
+        System.out.println(findStart(petrol, distance));
     }
 }

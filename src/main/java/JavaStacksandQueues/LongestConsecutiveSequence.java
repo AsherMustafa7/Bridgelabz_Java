@@ -17,20 +17,25 @@ import java.util.Set;
 class LongestConsecutiveSequence {
     // Compute the answer in expected O(n) time.
     static int findLength(int[] values) {
-        Set<Integer> set = new HashSet<>();
-        for (int value : values) {
-            set.add(value);
+        HashSet<Integer> st= new HashSet<>();
+        int n =values.length;
+        int longest=0;
+        for(int i =0; i<n;i++)
+        {
+            st.add(values[i]);
         }
-        int longest = 0;
-        for (int value : set) {
-            if (!set.contains(value - 1)) {
-                int current = value;
-                int length = 1;
-                while (current != Integer.MAX_VALUE && set.contains(current + 1)) {
-                    current++;
-                    length++;
+        for(int num:st)
+        {
+            if(!st.contains(num-1))
+            {
+                int val=num;
+                int count =0;
+                while(st.contains(val))
+                {
+                    count++;
+                    val++;
                 }
-                longest = Math.max(longest, length);
+                longest=Math.max(longest,count);
             }
         }
         return longest;

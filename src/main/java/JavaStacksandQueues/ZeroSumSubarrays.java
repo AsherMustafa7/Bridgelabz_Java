@@ -27,60 +27,35 @@ import java.util.Map;
 class ZeroSumSubarrays {
 
     // Find and return all contiguous zero-sum subarrays.
-    static List<List<Integer>> findAll(int[] values) {
-
-        // Store all the zero-sum subarrays found.
+    static List<List<Integer>> findAll(int[] arr) {// Store all the zero-sum subarrays found.
+         HashMap<Integer, ArrayList<Integer>> map = new HashMap<>();
         List<List<Integer>> result = new ArrayList<>();
 
-        // Store each prefix sum and the indices where it occurred.
-        Map<Integer, List<Integer>> prefixIndices = new HashMap<>();
+        int sum = 0;
 
-        // Store the initial prefix sum at the position before index zero.
-        List<Integer> initialIndices = new ArrayList<>();
-        initialIndices.add(-1);
-        prefixIndices.put(0, initialIndices);
+        map.put(0, new ArrayList<>());
+        map.get(0).add(-1);
 
-        // Track the cumulative sum while traversing the array.
-        int prefixSum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            sum += arr[i];
 
-        // Visit every element in the array.
-        for (int i = 0; i < values.length; i++) {
+            if (map.containsKey(sum)) {
+                for (int start : map.get(sum)) {
 
-            // Add the current element to the cumulative sum.
-            prefixSum += values[i];
-
-            // Find previous positions with the same cumulative sum.
-            List<Integer> starts = prefixIndices.get(prefixSum);
-
-            // If the sum appeared before, zero-sum subarrays exist.
-            if (starts != null) {
-
-                // Process every previous occurrence of this prefix sum.
-                for (int startIndex : starts) {
-
-                    // Create a list for the current zero-sum subarray.
                     List<Integer> subarray = new ArrayList<>();
 
-                    // Copy the elements between the previous and current indices.
-                    for (int j = startIndex + 1; j <= i; j++) {
-                        subarray.add(values[j]);
+                    for (int j = start + 1; j <= i; j++) {
+                        subarray.add(arr[j]);
                     }
 
-                    // Add the discovered subarray to the result.
                     result.add(subarray);
                 }
             }
 
-            // Create a list of indices if this prefix sum is new.
-            if (!prefixIndices.containsKey(prefixSum)) {
-                prefixIndices.put(prefixSum, new ArrayList<>());
-            }
-
-            // Record the current index for this prefix sum.
-            prefixIndices.get(prefixSum).add(i);
+            map.putIfAbsent(sum, new ArrayList<>());
+            map.get(sum).add(i);
         }
 
-        // Return all discovered zero-sum subarrays.
         return result;
     }
 

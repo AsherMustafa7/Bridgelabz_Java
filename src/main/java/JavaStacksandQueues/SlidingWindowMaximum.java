@@ -3,7 +3,7 @@
 Given an integer array and a window size k, find the maximum element in every contiguous window of size k.
 Use a deque of indices to keep only useful candidates for the maximum.
  *
- * Hint:
+ * Hint: 
  * Remove indices that fall outside the current window, and remove smaller values from the deque back before adding the current index.
  *
  * Author: Asher Mustafa

@@ -10,53 +10,47 @@ Use one stack for incoming elements and one for outgoing elements. Transfer elem
  * Date: 09 - 10 - 2026
  */
 package JavaStacksandQueues;
-import java.util.ArrayDeque;
-import java.util.Deque;
 
-// Implement a queue using two stacks.
+import java.util.Stack;
+
 class QueueUsingStacks {
-    private Deque<Integer> incoming = new ArrayDeque<>();
-    private Deque<Integer> outgoing = new ArrayDeque<>();
+    Stack<Integer> stack1 = new Stack<>();
+    Stack<Integer> stack2 = new Stack<>();
 
-    // Add a value to the back of the queue.
+    // Add an element to the queue
     void enqueue(int value) {
-        incoming.push(value);
+        stack1.push(value);
     }
 
-    // Move values only when the outgoing stack is empty.
-    private void transferIfNeeded() {
-        if (outgoing.isEmpty()) {
-            while (!incoming.isEmpty()) {
-                outgoing.push(incoming.pop());
+    // Remove an element from the queue
+    int dequeue() {
+        if (stack2.isEmpty()) {
+            while (!stack1.isEmpty()) {
+                stack2.push(stack1.pop());
             }
         }
+
+        if (stack2.isEmpty()) {
+            return -1;
+        }
+
+        return stack2.pop();
     }
 
-    // Remove and return the oldest value.
-    Integer dequeue() {
-        transferIfNeeded();
-        return outgoing.isEmpty() ? null : outgoing.pop();
-    }
-
-    // Return the oldest value without removing it.
-    Integer peek() {
-        transferIfNeeded();
-        return outgoing.peek();
-    }
-
-    // Check whether the queue has no values.
-    boolean isEmpty() {
-        return incoming.isEmpty() && outgoing.isEmpty();
-    }
-
-    // Demonstrate queue operations.
     public static void main(String[] args) {
-        QueueUsingStacks queue = new QueueUsingStacks();
-        queue.enqueue(10);
-        queue.enqueue(20);
-        queue.enqueue(30);
-        System.out.println("Dequeued: " + queue.dequeue());
-        System.out.println("Front: " + queue.peek());
-        System.out.println("Dequeued: " + queue.dequeue());
+        QueueUsingStacks q = new QueueUsingStacks();
+
+        q.enqueue(10);
+        q.enqueue(20);
+        q.enqueue(30);
+
+        System.out.println(q.dequeue()); // 10
+        System.out.println(q.dequeue()); // 20
+
+        q.enqueue(40);
+
+        System.out.println(q.dequeue()); // 30
+        System.out.println(q.dequeue()); // 40
+        System.out.println(q.dequeue()); // -1
     }
 }
