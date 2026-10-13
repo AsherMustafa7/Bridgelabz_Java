@@ -11,74 +11,133 @@ Use an array of linked-list buckets and separate chaining to handle collisions.
  */
 package JavaStacksandQueues;
 // Implement a small hash map with separate chaining.
+
 class CustomHashMap {
-    // Store key-value entries inside linked buckets.
-    private static class Entry {
+
+    static class Node {
         int key;
         String value;
-        Entry next;
-        Entry(int key, String value) { this.key = key; this.value = value; }
+        Node next;
+
+        Node(int key, String value) {
+            this.key = key;
+            this.value = value;
+            this.next = null;
+        }
     }
 
-    private final Entry[] buckets = new Entry[16];
+    Node[] buckets;
+    int size;
 
-    // Convert any integer key into a valid bucket index.
-    private int index(int key) {
-        return (key & 0x7fffffff) % buckets.length;
+    CustomHashMap() {
+        buckets = new Node[7];
+        size = 0;
     }
 
-    // Insert a new key or update an existing key.
+    // Find the bucket index for a key
+    int hash(int key) {
+        return Math.floorMod(key, buckets.length);
+    }
+
+    // Insert a key-value pair or update an existing key
     void put(int key, String value) {
-        int index = index(key);
-        Entry current = buckets[index];
-        while (current != null) {
-            if (current.key == key) {
-                current.value = value;
+        int index = hash(key);
+        Node temp = buckets[index];
+
+        while (temp != null) {
+            if (temp.key == key) {
+                temp.value = value;
                 return;
             }
-            current = current.next;
+
+            temp = temp.next;
         }
-        Entry entry = new Entry(key, value);
-        entry.next = buckets[index];
-        buckets[index] = entry;
+
+        Node newNode = new Node(key, value);
+        newNode.next = buckets[index];
+        buckets[index] = newNode;
+        size++;
     }
 
-    // Return the value for a key, or null if absent.
+    // Retrieve the value associated with a key
     String get(int key) {
-        Entry current = buckets[index(key)];
-        while (current != null) {
-            if (current.key == key) return current.value;
-            current = current.next;
+        int index = hash(key);
+        Node temp = buckets[index];
+
+        while (temp != null) {
+            if (temp.key == key) {
+                return temp.value;
+            }
+
+            temp = temp.next;
         }
+
         return null;
     }
 
-    // Remove a key if it exists.
+    // Delete a key-value pair
     boolean remove(int key) {
-        int index = index(key);
-        Entry current = buckets[index];
-        Entry previous = null;
-        while (current != null) {
-            if (current.key == key) {
-                if (previous == null) buckets[index] = current.next;
-                else previous.next = current.next;
-                current.next = null;
+        int index = hash(key);
+        Node temp = buckets[index];
+        Node prev = null;
+
+        while (temp != null) {
+            if (temp.key == key) {
+
+                if (prev == null) {
+                    buckets[index] = temp.next;
+                } else {
+                    prev.next = temp.next;
+                }
+
+                size--;
                 return true;
             }
-            previous = current;
-            current = current.next;
+
+            prev = temp;
+            temp = temp.next;
         }
+
         return false;
     }
 
-    // Demonstrate insertion, retrieval, and deletion.
+    // Display all key-value pairs
+    void display() {
+        for (int i = 0; i < buckets.length; i++) {
+            System.out.print(i + ": ");
+
+            Node temp = buckets[i];
+
+            while (temp != null) {
+                System.out.print(
+                    "(" + temp.key + ", " + temp.value + ") -> "
+                );
+                temp = temp.next;
+            }
+
+            System.out.println("null");
+        }
+    }
+
     public static void main(String[] args) {
         CustomHashMap map = new CustomHashMap();
-        map.put(1, "Asher");
-        map.put(17, "Java");
-        System.out.println(map.get(1));
-        System.out.println(map.get(17));
-        System.out.println("Removed: " + map.remove(1));
-        System.out.println(map.get(1));
+
+        map.put(10, "Apple");
+        map.put(17, "Mango");
+        map.put(5, "Banana");
+
+        System.out.println("Value of key 10: " + map.get(10));
+        System.out.println("Value of key 17: " + map.get(17));
+
+        // Update an existing key
+        map.put(10, "Orange");
+        System.out.println("Updated key 10: " + map.get(10));
+
+        // Delete a key
+        System.out.println("Removed key 17: " + map.remove(17));
+        System.out.println("Value of key 17: " + map.get(17));
+
+        System.out.println("\nHash Map:");
+        map.display();
     }
 }

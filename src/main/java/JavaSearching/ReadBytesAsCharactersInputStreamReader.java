@@ -22,7 +22,7 @@ import java.nio.charset.StandardCharsets;
 class ReadBytesAsCharactersInputStreamReader {
     // Run the program.
     public static void main(String[] args) {
-        String path = args.length > 0 ? args[0] : "input.txt";
+        String path = args.length > 0 ? args[0] : "src\\main\\java\\JavaSearching\\input.txt";
         // Convert bytes to UTF-8 characters and buffer line reading.
         try (BufferedReader br = new BufferedReader(
                 new InputStreamReader(new FileInputStream(path), StandardCharsets.UTF_8))) {
