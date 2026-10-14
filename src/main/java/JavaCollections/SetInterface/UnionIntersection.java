@@ -26,6 +26,14 @@ public class UnionIntersection {
         Set<Integer> intersection=new HashSet<>(set1);
         intersection.retainAll(set2);
         System.out.println("Intersection: "+intersection);
-        
     }
 }
+// comparable vs comparator 
+// itterable vs iterator
+// collection vs collections
+// hierarchy of collection framework
+// hashset vs treeset vs linkedhashset
+// hashmap internal working (Bucket -> LinkedList -> Node -> Entry)
+// Legacy Methords 
+// why dont we use vector anymore
+// why is map different from collection

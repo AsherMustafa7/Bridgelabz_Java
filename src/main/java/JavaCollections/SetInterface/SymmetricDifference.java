@@ -32,6 +32,5 @@ public class SymmetricDifference {
         Set<Integer> symmetricDifference=new HashSet<>(union);
         symmetricDifference.removeAll(intersection);
         System.out.println("Symmetric Difference: "+symmetricDifference);
-        
     }
 }
