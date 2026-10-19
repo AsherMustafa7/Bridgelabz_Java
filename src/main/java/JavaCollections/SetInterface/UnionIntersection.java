@@ -37,3 +37,4 @@ public class UnionIntersection {
 // Legacy Methords 
 // why dont we use vector anymore
 // why is map different from collection
+// what is load factor, capacity, threshold for all the datastructures

@@ -1,6 +1,11 @@
 {
     "java.project.sourcePaths": [
-        "src/main/java"
+        "src\\main\\java"
     ],
-    "java.project.outputPath": "out"
+    "java.project.outputPath": "out",
+    "java.project.referencedLibraries": []
 }
+// $env:JAVA_HOME = "C:\java\jdk-11"
+// $env:Path = "$env:JAVA_HOME\bin;$env:Path"
+// $env:JAVA_HOME = "C:\java\jdk-8"
+// $env:Path = "$env:JAVA_HOME\bin;$env:Path"
