@@ -8,3 +8,4 @@ target/
 .vscode/*
 !.vscode/settings.json
 .DS_Store
+*.log
