@@ -1,0 +1,2 @@
+Hello, नमस्ते, こんにちは
+UTF-8 preserves text through encoding.
