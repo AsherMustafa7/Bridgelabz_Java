@@ -1,4 +1,4 @@
-package ByteStream;
+package JavaIOStreams.ByteStream;
 import java.io.FileInputStream;
 import java.io.FileReader;
 public class FileReaderandFileInputStream 

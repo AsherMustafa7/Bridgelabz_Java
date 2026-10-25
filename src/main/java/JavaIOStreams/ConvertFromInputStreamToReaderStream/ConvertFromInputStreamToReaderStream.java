@@ -1,4 +1,4 @@
-package ConvertFromInputStreamToReaderStream;
+package JavaIOStreams.ConvertFromInputStreamToReaderStream;
 
 
 

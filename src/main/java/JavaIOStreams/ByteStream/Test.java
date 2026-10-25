@@ -1,4 +1,4 @@
-package ByteStream;
+package JavaIOStreams.ByteStream;
 
 
 public class Test

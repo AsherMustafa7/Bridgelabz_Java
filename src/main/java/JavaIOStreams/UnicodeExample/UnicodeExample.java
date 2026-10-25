@@ -1,4 +1,4 @@
-package UnicodeExample;
+package JavaIOStreams.UnicodeExample;
 
 
 import java.io.*;
