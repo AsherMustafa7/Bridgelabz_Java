@@ -1,0 +1,4 @@
+
+101|Aarav Sharma|9876543210|aarav@gmail.com|Chennai
+102|Diya Verma|9876501234|diya@gmail.com|Lucknow
+103|Rohan Singh|9123456780|rohan@gmail.com|Delhi
