@@ -4,8 +4,12 @@ public class ThreadOFTreeStatements2
 {
     public static void main(String[] args) 
     {
-        Thread t = new Thread(()->{System.out.println("Hello from A"); System.out.println("Hello from B"); });
+        Thread t = new Thread(()->
+        {System.out.println("Hello from A"); 
+        System.out.println("Hello from B"); 
+        });
         t.start();
+        
         System.out.println("Hello from C");
        
     }
